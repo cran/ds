@@ -35,7 +35,9 @@ returns a data.frame
 }
 
 \author{
-Emmanuel Arnhold <emmanuelarnhold@yahoo.com.br>
+Emmanuel Arnhold 
+
+emmanuelarnhold@yahoo.com.br
 }
 
 

@@ -56,7 +56,7 @@ med33=m-3*ste
 r=rbind(m,max,min,medi,med3,med2,med1,med11,med22,med33,quantil,n, a,vari,ste,mse,cv,as,cur,p)
 r=round(r,4)
 r=as.data.frame(r)
-rownames(r)=c("Mean", "Maximum","Minimum","Median","Mean + 3 standart deviation","Mean + 2 standart deviation","Mean + 1 standart deviation","Mean - 1 standart deviation","Mean - 2 standart deviation","Mean - 3 standart deviation","Quantile (99.87%)","Quantile (97.73%)","Quantile (84.14%)","Quantile (15.87%)","Quantile (2.28%)","Quantile (0.14%)","n","Range","Variance", "Standart deviation", "Standart error of the mean","Coefficient of variation (%)", "Skewness", "Kurtosis", "P-value (Shapiro-Wilk)")
+rownames(r)=c("Mean", "Maximum","Minimum","Median","Mean + 3 standard deviation","Mean + 2 standard deviation","Mean + 1 standard deviation","Mean - 1 standard deviation","Mean - 2 standard deviation","Mean - 3 standard deviation","Quantile (99.87%)","Quantile (97.73%)","Quantile (84.14%)","Quantile (15.87%)","Quantile (2.28%)","Quantile (0.14%)","n","Range","Variance", "Standard deviation", "Standard error of the mean","Coefficient of variation (%)", "Skewness", "Kurtosis", "P-value (Shapiro-Wilk)")
 colnames(r)=nam
 return(r)
 }

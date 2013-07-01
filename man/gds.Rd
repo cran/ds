@@ -19,7 +19,7 @@ gds(data)
 
 
 \value{
-The function return mean, maximum, minimum, median, mean + or - standart deviation, quantiles, n, range, variance, standart deviation, standart error of the mean, coefficiente of variation, skewness, kurtosis, normality test (p-value of the Shapiro-Wilk test)
+The function return mean, maximum, minimum, median, mean + or - standard deviation, quantiles, n, range, variance, standard deviation, standard error of the mean, coefficiente of variation, skewness, kurtosis, normality test (p-value of the Shapiro-Wilk test)
 }
 
 \references{
@@ -27,7 +27,10 @@ KAPS, M. and LAMBERSON, W. R. Biostatistics for Animal Science: an introductory 
 }
 
 
-\author{       Emmanuel Arnhold <emmanuelarnhold@yahoo.com.br>
+\author{      
+Emmanuel Arnhold 
+
+emmanuelarnhold@yahoo.com.br
 }
 
 

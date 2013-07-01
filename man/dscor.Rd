@@ -49,7 +49,10 @@ In option = 2 (return matrix), diagonally above contains the correlations and di
 KAPS, M. and LAMBERSON, W. R. Biostatistics for Animal Science: an introductory text. 2nd Edition. CABI Publishing, Wallingford, Oxfordshire, UK, 2009. 504p.
 }
 
-\author{      Emmanuel Arnhold <emmanuelarnhold@yahoo.com.br>
+\author{      
+Emmanuel Arnhold
+
+emmanuelarnhold@yahoo.com.br
 }
 
 
