@@ -4,7 +4,7 @@ function(data, xlab="Variable x", ylab="Variable y", position=1, colors=TRUE, ty
 means=function(data){
 t=as.factor(data[,1])
 d=data.frame(t,data[,-1])
-s=split(d[,-1], d$t)
+s=split(data.frame(d[,-1]), d$t)
 r=lapply(s, colMeans, na.rm=TRUE)
 r=lapply(r, round,2)
 rr=t(data.frame(r)); rr=data.frame(rr);rownames(rr)=NULL
@@ -24,7 +24,8 @@ data=l[[oi]]
 
         d1=data[,1];d2=data[,-1]
         c1=1:length(d2)
-        names=names(d2)
+        names=names(data)
+	names=names[-1]
         c2=ifelse(colors==TRUE, 1,2)
         cor=list(c1,1)
         cor=cor[[c2]]

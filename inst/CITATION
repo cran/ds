@@ -1,0 +1,10 @@
+citHeader("To cite ds in publications, please use:")
+
+citEntry(entry="article", 
+          title = "Pacote em ambiente R para automatizar estatisticas descritivas", 
+          author = personList( as.person("Emmanuel Arnhold" )), 
+          year = "2014", 
+          journal = "Sigmae", 
+          volume = "3", 
+          issue = "1", 
+          textVersion = "ARNHOLD, E. Pacote em ambiente R para automatizar estatisticas descritivas. Sigmae, v.3, n.1, p.36-42, 2014.") 
