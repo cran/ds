@@ -1,1 +1,6 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "legend", "matplot")
+importFrom("stats", "chisq.test", "cor.test", "fisher.test", "median",
+             "na.omit", "quantile", "shapiro.test")
+importFrom("utils", "combn", "read.table")
+

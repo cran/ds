@@ -16,8 +16,8 @@ The package performs various analyzes of descriptive statistics, including corre
 \tabular{ll}{
 Package: \tab ds\cr
 Type: \tab Package\cr
-Version: \tab 3.0\cr
-Date: \tab 2014-09-02\cr
+Version: \tab 4.0\cr
+Date: \tab 2018-07-07\cr
 License: \tab GPL-2\cr
 }
 }

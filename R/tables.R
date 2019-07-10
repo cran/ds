@@ -14,7 +14,7 @@ d=data
         n1=names(d); n1=n1[1]; n2=names(d[,-1])
         f3=function(ii){paste(n1,"vs",n2[ii])}
         n3=lapply(ii, f3); names(t5)=n3
-        t6=lapply(t5, prop.table, 1)
+        t6=lapply(t5, prop.table, 2)
         t2=t6
         t7=lapply(ii, f1); names(t7)=names(t6)
         t8=lapply(t5, chisq.test)
